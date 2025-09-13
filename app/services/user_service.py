@@ -24,3 +24,4 @@ def register_user(name: str, email: str, phone: str):
     if response.error:
         raise Exception("Failed to register user.")
     return user_data
+
