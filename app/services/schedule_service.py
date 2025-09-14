@@ -1,4 +1,4 @@
-from database import get_client
+from ..database import get_client
 import uuid
 from supabase import Client
 from datetime import datetime
